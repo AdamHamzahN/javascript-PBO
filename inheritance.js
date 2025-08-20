@@ -28,6 +28,7 @@
 // // Child menggunakan fungsi yg ada di Parent
 // child.parentSay();
 
+// Parent
 class LuasBangunDatar {
     constructor({ sisi, panjang, lebar, alas, tinggi, radius }) {
         this.sisi = sisi;
@@ -38,7 +39,8 @@ class LuasBangunDatar {
         this.radius = radius;
     }
 }
-
+ 
+// Child / Turunan
 class Persegi extends LuasBangunDatar {
     constructor(sisi) {
         super({ sisi: sisi })
